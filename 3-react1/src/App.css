@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  background: #f4f7fb;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  padding: 56px 24px;
+  text-align: center;
+  background: linear-gradient(135deg, #2563eb, #38bdf8);
+  color: white;
+}
+
+.header-label {
+  margin: 0 0 12px;
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.headerh1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.header-text {
+  margin: 16px auto 0;
+  max-width: 560px;
+  line-height: 1.8;
+}
+
+.main {
+  width: min(960px, 92%);
+  margin: 40px auto;
+}
+
+.profile-card {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  padding: 32px;
+  margin-bottom: 24px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.profile-icon {
+  display: grid;
+  place-items: center;
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-contenth2,
+.info-cardh2 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.section-label {
+  margin: 0 0 8px;
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.job {
+  margin: 0 0 16px;
+  color: #64748b;
+  font-weight: bold;
+}
+
+.message {
+  margin: 0;
+  line-height: 1.9;
+}
+
+.card-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.info-card {
+  padding: 28px;
+  background: white;
+  border-radius: 24px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.info-cardp {
+  line-height: 1.9;
+}
+
+.footer {
+  padding: 24px;
+  text-align: center;
+  color: #64748b;
+}
