@@ -1,15 +1,13 @@
 import "./App.css";
 
 function App() {
-	const handleClick = () => {
-		console.log("クリックされました");
-	};
-
-	return (
-		<div>
-			<button onClick={handleClick}>クリック</button>
-		</div>
-	);
+  return (
+    <div>
+      <button onClick={() => console.log("クリックされました")}>
+        クリック
+      </button>
+    </div>
+  );
 }
 
 export default App;
